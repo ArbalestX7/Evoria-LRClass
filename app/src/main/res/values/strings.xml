@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">L&amp;R Class</string>
+
+    //splash
+    <string name="splash_logo">Logo Loading Screen</string>
+
+    //role
+    <string name="role_pilih">Silahkan Login Sebagai :</string>
+</resources>
