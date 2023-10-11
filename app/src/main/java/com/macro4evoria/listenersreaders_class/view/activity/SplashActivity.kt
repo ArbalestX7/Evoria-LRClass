@@ -1,4 +1,4 @@
-package com.macro4evoria.listenersreaders_class.ui
+package com.macro4evoria.listenersreaders_class.view.activity
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -8,7 +8,6 @@ import android.os.Handler
 import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.macro4evoria.listenersreaders_class.MainActivity
 import com.macro4evoria.listenersreaders_class.databinding.ActivitySplashBinding
 
 @SuppressLint("CustomSplashScreen")
@@ -26,9 +25,9 @@ class SplashActivity : AppCompatActivity() {
 
         handler = Handler()
         handler.postDelayed({
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, RoleActivity::class.java))
             finish()
-        },timer.toLong())
+        }, timer.toLong())
     }
 
     private fun setupView() {
@@ -37,8 +36,8 @@ class SplashActivity : AppCompatActivity() {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
         } else {
             window.setFlags(
-                WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
-                WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
+                WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN
             )
         }
         supportActionBar?.hide()

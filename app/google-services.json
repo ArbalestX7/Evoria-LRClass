@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242223029386",
+    "project_id": "evoria-lrclass",
+    "storage_bucket": "evoria-lrclass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242223029386:android:4868dd0fb4da04fd066173",
+        "android_client_info": {
+          "package_name": "com.macro4evoria.listenersreaders_class"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI1jNphZdJ-D_JCuFQ-64bBTiNTId56iE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
