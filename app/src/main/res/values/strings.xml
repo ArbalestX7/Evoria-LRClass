@@ -69,6 +69,26 @@
     <string name="ex_phone">0812345678</string>
     <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
 
+    //Panduan
+    //Guru
+    <string name="head_panduan">Panduan</string>
+    <string name="btn_guru">Guru</string>
+    <string name="btn_siswa">Siswa</string>
+    <string name="buat">Panduan Membuat Kelas</string>
+    <string name="isi_panduan_kelas">1. Dibagian bawah halaman klik + untuk membuat kelas.\n2. Masukkan nama kelas.\n3. Untuk menambahkan Ruang dan Mata Pelajaran. (Opsional)\n4. Klik Buat.</string>
+    <string name="materi"> Panduan Membuat Materi</string>
+    <string name="materi1">1. Klik kelas Materi.\n2. Dibagian bawah halaman klik + untuk menambahkan materi.\n3. Masukkan judul, deskripsi dan topik.\n4. Untuk memasukkan deskripsi singkat.  (Opsional) </string>
+    <string name="quiz">Panduan Membuat Quiz</string>
+    <string name="quiz1">1. Klik bagian Quiz.\n2. Dibagian bawah halaman klik + untuk menambahkan quiz.\n3. Masukkan nama quiz dan tambahkan pertanyaan.\n4. Pilih jenis soal.\n5. Masukkan soal dan jawaban.\n6. Posting.\n</string>
 
+    //Siswa
+    <string name="masuk">Panduan Masuk Kelas</string>
+    <string name="masuk1">1. Klik kelas pada menu Home.\n2. Dibagian bawah halaman klik + untuk menambahkan kelas.\n3. Masukkan kode kelas.\n4. Gabung.</string>
+    <string name="aksesmateri">Panduan Mengakses Materi Kelas</string>
+    <string name="aksesmateri1">1. Klik kelas lalu pilih materi.\n2. Pilih materi yang akan dipelajari.</string>
+    <string name="aksesquiz">Panduan Mengakses Quiz</string>
+    <string name="aksesquiz1">1. Klik kelas lalu pilih quiz.\n2. Masukkan PIN.\n3. Pada soal multiple choice, kerjakan soal dengan klik salah satu jawaban benar.\n4. Pada soal isian, tulis jawaban yang tersedia pada kolom</string>
+    <string name="eksplor">Panduan Mengeksplor Materi</string>
+    <string name="eksplor1">1. Eksplorasi pada menu Home.\n2. Pilih materi yang akan dipelajari.</string>
 
 </resources>

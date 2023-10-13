@@ -15,6 +15,7 @@ import com.macro4evoria.listenersreaders_class.R
 import com.macro4evoria.listenersreaders_class.databinding.FragmentHomeBinding
 import com.macro4evoria.listenersreaders_class.model.User
 import com.macro4evoria.listenersreaders_class.view.activity.LoginActivity
+import com.macro4evoria.listenersreaders_class.view.activity.PanduanActivity
 
 class HomeFragment : Fragment() {
 
@@ -48,6 +49,16 @@ class HomeFragment : Fragment() {
         val btnLogout: Button = binding.btnExit
         btnLogout.setOnClickListener { logout() }
 
+        /*val btnExplore: Button = binding.btnEksplor
+        btnExplore.setOnClickListener { explore() }*/
+
+        val btnPanduan: Button = binding.btnPanduan
+        btnPanduan.setOnClickListener { panduan() }
+
+        /*val btnKelas: Button = binding.btnKelas
+        btnKelas.setOnClickListener { kelas() }*/
+
+
         return root
     }
 
@@ -80,6 +91,22 @@ class HomeFragment : Fragment() {
         val alertDialog = logoutDialog.create()
         alertDialog.show()
     }
+
+    /*private fun exlore() {
+        val i = Intent(requireActivity(), ExploreActivity::class.java)
+        startActivity(i)
+    }*/
+
+    /*private fun kelas() {
+        val i = Intent(requireActivity(), KelasActivity::class.java)
+        startActivity(i)
+    }*/
+
+    private fun panduan() {
+        val i = Intent(requireActivity(), PanduanActivity::class.java)
+        startActivity(i)
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ListenersReaders_Class"
         tools:targetApi="31">
         <activity
+            android:name=".view.activity.PanduanActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.bottomnavbar.BottomNavigationActivity"
             android:exported="false"
             android:label="@string/title_activity_bottom_navigation" />
