@@ -101,4 +101,29 @@
     <string name="btn_materi">Materi</string>
     <string name="btn_quiz">Quiz</string>
 
+    //Quiz
+    <string name="head_quiz">Quiz</string>
+    <string name="quiz_mtk">Quiz Matematika</string>
+    <string name="no.1">Soal 1/10</string>
+    <string name="soal1">Berapa jumlah sudut pada bangun datar persegi?</string>
+    <string name="load_fail">Gagal Memuat Suara</string>
+    <string name="A">Empat</string>
+    <string name="B">Tiga</string>
+    <string name="C">Dua</string>
+    <string name="D">Satu</string>
+    <string name="next">Selanjutnya</string>
+    <string name="selesai">Selesai</string>
+    <string name="nilai">Lihat Nilai</string>
+
+    <string name="head_nilai">Nilai Quiz</string>
+    <string name="rank">Peringkat</string>
+    <string name="skor">Skor</string>
+
+    <string name="satu">1. </string>
+    <string name="Dua">2. </string>
+    <string name="nama1">Brian Immanuel</string>
+    <string name="skor1">90</string>
+    <string name="skor2">55</string>
+
+
 </resources>

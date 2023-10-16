@@ -20,5 +20,4 @@
         app:srcCompat="@drawable/r" />
 
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>

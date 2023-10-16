@@ -1,9 +1,9 @@
 package com.macro4evoria.listenersreaders_class.view.activity
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.macro4evoria.listenersreaders_class.databinding.ActivityJoinKelasBinding
 
 class JoinKelasActivity : AppCompatActivity() {
@@ -22,10 +22,10 @@ class JoinKelasActivity : AppCompatActivity() {
         }
     }
 
-    private fun kelas(){
+    private fun kelas() {
         val i = Intent(this, KelasActivity::class.java)
         i.putExtra("visibility", View.VISIBLE)
-        i.putExtra("vis",View.GONE)
+        i.putExtra("vis", View.GONE)
         startActivity(i)
     }
 }

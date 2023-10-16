@@ -12,7 +12,16 @@
         android:theme="@style/Theme.ListenersReaders_Class"
         tools:targetApi="31">
         <activity
-            android:name=".view.activity.MateriActivity"
+            android:name=".view.activity.NilaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.EndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.SoalQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.QuizActivity"
             android:exported="false" />
         <activity
             android:name=".view.activity.MateriActivity"

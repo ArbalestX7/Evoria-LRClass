@@ -1,8 +1,8 @@
 package com.macro4evoria.listenersreaders_class.view.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.macro4evoria.listenersreaders_class.R
 import com.macro4evoria.listenersreaders_class.databinding.ActivityPanduanBinding
 
@@ -26,7 +26,7 @@ class PanduanActivity : AppCompatActivity() {
         }
     }
 
-    private fun setViewGuru(){
+    private fun setViewGuru() {
         binding.apply {
             btnGuru.setBackgroundResource(R.drawable.btn_panduan)
             btnSiswa.setBackgroundResource(R.drawable.btn_siswa_dis)
@@ -49,7 +49,7 @@ class PanduanActivity : AppCompatActivity() {
         }
     }
 
-    private fun setViewSiswa(){
+    private fun setViewSiswa() {
         binding.apply {
             btnGuru.setBackgroundResource(R.drawable.btn_panduan_dis)
             btnSiswa.setBackgroundResource(R.drawable.btn_siswa)

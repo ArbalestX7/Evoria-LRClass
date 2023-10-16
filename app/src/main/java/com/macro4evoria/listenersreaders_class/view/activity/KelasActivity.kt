@@ -2,7 +2,6 @@ package com.macro4evoria.listenersreaders_class.view.activity
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -37,8 +36,8 @@ class KelasActivity : AppCompatActivity() {
     }
 
     private fun setKelas() {
-        val visibility = intent.getIntExtra("visibility",View.GONE)
-        val vis = intent.getIntExtra("vis",View.VISIBLE)
+        val visibility = intent.getIntExtra("visibility", View.GONE)
+        val vis = intent.getIntExtra("vis", View.VISIBLE)
         binding.apply {
             ivKelasBlank.visibility = vis
             tvKelasBlank.visibility = vis
@@ -52,23 +51,21 @@ class KelasActivity : AppCompatActivity() {
 
     }
 
-    private fun masukKelasMTK(){
+    private fun masukKelasMTK() {
         val i = Intent(this, PelajaranActivity::class.java)
         i.putExtra(PelajaranActivity.EXTRA_MTK, View.VISIBLE)
-        i.putExtra(MateriActivity.MATERI_MTK, View.VISIBLE)
         startActivity(i)
     }
 
-    private fun masukKelasBio(){
+    private fun masukKelasBio() {
         val i = Intent(this, PelajaranActivity::class.java)
         i.putExtra(PelajaranActivity.EXTRA_BIO, View.VISIBLE)
         startActivity(i)
     }
 
-    private fun masukKelasKim(){
+    private fun masukKelasKim() {
         val i = Intent(this, PelajaranActivity::class.java)
         i.putExtra(PelajaranActivity.EXTRA_KIM, View.VISIBLE)
-        i.putExtra(MateriActivity.MATERI_KIM, View.VISIBLE)
         startActivity(i)
     }
 }

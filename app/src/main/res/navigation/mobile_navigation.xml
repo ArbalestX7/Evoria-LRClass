@@ -25,5 +25,5 @@
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.macro4evoria.listenersreaders_class.view.fragment.profile.ProfileFragment"
-        tools:layout="@layout/fragment_profile"/>
+        tools:layout="@layout/fragment_profile" />
 </navigation>
