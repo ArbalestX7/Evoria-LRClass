@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.PelajaranActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ic_back"
+        android:contentDescription="@string/tombol_kembali"
+        android:drawablePadding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_pelajaran_mtk"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back"
+        app:srcCompat="@drawable/img_1"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_pelajaran_kimia"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back"
+        app:srcCompat="@drawable/img_2" />
+
+    <ImageView
+        android:id="@+id/iv_pelajaran_bio"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back"
+        app:srcCompat="@drawable/img_3" />
+
+    <ImageView
+        android:id="@+id/iv_materi"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toStartOf="@+id/iv_quiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_materi" />
+
+    <ImageView
+        android:id="@+id/iv_quiz"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_materi"
+        app:layout_constraintTop_toTopOf="@+id/iv_materi"
+        app:srcCompat="@drawable/bg_quiz" />
+
+    <TextView
+        android:id="@+id/tv_materi"
+        style="@style/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_materi"
+        app:layout_constraintEnd_toEndOf="@+id/iv_materi"
+        app:layout_constraintStart_toStartOf="@+id/iv_materi"
+        app:layout_constraintTop_toBottomOf="@+id/iv_materi" />
+
+    <TextView
+        android:id="@+id/tv_quiz"
+        style="@style/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_quiz"
+        app:layout_constraintEnd_toEndOf="@+id/iv_quiz"
+        app:layout_constraintStart_toStartOf="@+id/iv_quiz"
+        app:layout_constraintTop_toBottomOf="@+id/iv_quiz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,6 +12,21 @@
         android:theme="@style/Theme.ListenersReaders_Class"
         tools:targetApi="31">
         <activity
+            android:name=".view.activity.MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.MateriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.PelajaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.JoinKelasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.activity.KelasActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.activity.PanduanActivity"
             android:exported="false" />
         <activity

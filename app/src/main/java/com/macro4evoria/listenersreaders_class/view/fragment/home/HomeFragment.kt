@@ -14,6 +14,7 @@ import androidx.transition.TransitionInflater
 import com.macro4evoria.listenersreaders_class.R
 import com.macro4evoria.listenersreaders_class.databinding.FragmentHomeBinding
 import com.macro4evoria.listenersreaders_class.model.User
+import com.macro4evoria.listenersreaders_class.view.activity.KelasActivity
 import com.macro4evoria.listenersreaders_class.view.activity.LoginActivity
 import com.macro4evoria.listenersreaders_class.view.activity.PanduanActivity
 
@@ -55,8 +56,8 @@ class HomeFragment : Fragment() {
         val btnPanduan: Button = binding.btnPanduan
         btnPanduan.setOnClickListener { panduan() }
 
-        /*val btnKelas: Button = binding.btnKelas
-        btnKelas.setOnClickListener { kelas() }*/
+        val btnKelas: Button = binding.btnKelas
+        btnKelas.setOnClickListener { kelas() }
 
 
         return root
@@ -97,10 +98,10 @@ class HomeFragment : Fragment() {
         startActivity(i)
     }*/
 
-    /*private fun kelas() {
+    private fun kelas() {
         val i = Intent(requireActivity(), KelasActivity::class.java)
         startActivity(i)
-    }*/
+    }
 
     private fun panduan() {
         val i = Intent(requireActivity(), PanduanActivity::class.java)

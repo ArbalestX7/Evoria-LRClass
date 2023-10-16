@@ -91,4 +91,14 @@
     <string name="eksplor">Panduan Mengeksplor Materi</string>
     <string name="eksplor1">1. Eksplorasi pada menu Home.\n2. Pilih materi yang akan dipelajari.</string>
 
+    //Kelas
+    <string name="head_kelas">Kelas</string>
+    <string name="blank_kelas">Tidak melihat kelas yang sudah ada?\nBergabung dengan kelas pertama Anda !</string>
+    <string name="join_kelas">Gabung Kelas</string>
+    <string name="tv_kode_kelas">Mintalah kode kelas kepada pengajar, lalu masukkan kode di sini.</string>
+    <string name="hint_kode">Kode kelas</string>
+    <string name="join">Gabung</string>
+    <string name="btn_materi">Materi</string>
+    <string name="btn_quiz">Quiz</string>
+
 </resources>

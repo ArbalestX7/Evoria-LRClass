@@ -33,4 +33,9 @@
         <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
     </style>
 
+    <style name="bg_fab">
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorSecondaryVariant">@color/primary</item>
+    </style>
+
 </resources>

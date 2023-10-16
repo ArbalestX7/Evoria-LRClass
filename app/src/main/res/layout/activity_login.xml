@@ -36,7 +36,7 @@
         app:layout_constraintTop_toTopOf="@+id/header_login" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/username_textLayout"
+        android:id="@+id/kode_kelas_textLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -67,7 +67,7 @@
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username_textLayout"
+        app:layout_constraintTop_toBottomOf="@+id/kode_kelas_textLayout"
         app:passwordToggleEnabled="true"
         app:boxStrokeColor="@color/black"
         app:hintTextColor="@color/black">
