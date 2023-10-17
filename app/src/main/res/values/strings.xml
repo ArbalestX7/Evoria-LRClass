@@ -104,7 +104,7 @@
     //Quiz
     <string name="head_quiz">Quiz</string>
     <string name="quiz_mtk">Quiz Matematika</string>
-    <string name="no.1">Soal 1/10</string>
+    <string name="no.1">Soal 1/1</string>
     <string name="soal1">Berapa jumlah sudut pada bangun datar persegi?</string>
     <string name="load_fail">Gagal Memuat Suara</string>
     <string name="A">Empat</string>
@@ -125,5 +125,21 @@
     <string name="skor1">90</string>
     <string name="skor2">55</string>
 
+    //Explore
+    <string name="bindo">Bahasa Indonesia</string>
+    <string name="Biologi">Biologi</string>
+    <string name="sel">Sel Tumbuhan</string>
+    <string name="pencernaan">Sistem Pencernaan</string>
+    <string name="peredarandrh">Sistem Peredaran Darah</string>
+    <string name="bing">Bahasa Inggris</string>
+    <string name="narative">Narrative Text</string>
+    <string name="report">Report Text</string>
+    <string name="spoof">Spoof Text</string>
+    <string name="all">Lihat Semua ></string>
+    <string name="explanation">Teks Eksplanasi</string>
+    <string name="pantun">Pantun</string>
+    <string name="puisi">Puisi</string>
 
+    <string name="title_dialog">Apakah Anda yakin menyelesaikan Quiz ini ?</string>
+    <string name="desc_dialog">Jika anda mengakhiri ujian ini hasil jawaban anda tidak dapat dirubah, mohon periksa kembali hasil jawaban Anda sebelum mengakhiri ujian ini !</string>
 </resources>

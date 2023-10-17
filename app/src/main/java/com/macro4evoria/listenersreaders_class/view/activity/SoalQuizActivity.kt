@@ -3,7 +3,10 @@ package com.macro4evoria.listenersreaders_class.view.activity
 import android.content.Intent
 import android.media.SoundPool
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.macro4evoria.listenersreaders_class.R
 import com.macro4evoria.listenersreaders_class.databinding.ActivitySoalQuizBinding
@@ -25,8 +28,8 @@ class SoalQuizActivity : AppCompatActivity() {
             onBackPressed()
         }
 
-        binding.btnNext.setOnClickListener {
-            startActivity(Intent(this, EndActivity::class.java))
+        binding.btnEnd.setOnClickListener {
+            showCustomDialog()
         }
 
         binding.btnSound.setOnClickListener {
@@ -36,6 +39,26 @@ class SoalQuizActivity : AppCompatActivity() {
         }
 
 
+    }
+
+    private fun showCustomDialog() {
+        val builder = AlertDialog.Builder(this)
+        val view = LayoutInflater.from(this).inflate(R.layout.custom_layout_dialog, null)
+        builder.setView(view)
+        val dialog = builder.create()
+
+        val btnYes = view.findViewById<Button>(R.id.btn_yes)
+        val btnNo = view.findViewById<Button>(R.id.btn_no)
+
+        btnYes.setOnClickListener {
+            startActivity(Intent(this, EndActivity::class.java))
+            finish()
+        }
+        btnNo.setOnClickListener {
+            dialog.cancel()
+        }
+
+        dialog.show()
     }
 
     private fun soundPool() {

@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ListenersReaders_Class"
         tools:targetApi="31">
         <activity
+            android:name=".view.activity.ExplorationActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.activity.NilaiActivity"
             android:exported="false" />
         <activity
