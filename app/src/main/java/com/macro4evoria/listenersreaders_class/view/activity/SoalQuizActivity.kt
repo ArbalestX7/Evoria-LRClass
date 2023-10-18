@@ -25,7 +25,7 @@ class SoalQuizActivity : AppCompatActivity() {
         setBgButton()
 
         binding.btnBack.setOnClickListener {
-            onBackPressed()
+            showCustomDialog()
         }
 
         binding.btnEnd.setOnClickListener {
