@@ -87,7 +87,7 @@
     <string name="aksesmateri">Panduan Mengakses Materi Kelas</string>
     <string name="aksesmateri1">1. Klik kelas lalu pilih materi.\n2. Pilih materi yang akan dipelajari.</string>
     <string name="aksesquiz">Panduan Mengakses Quiz</string>
-    <string name="aksesquiz1">1. Klik kelas lalu pilih quiz.\n2. Masukkan PIN.\n3. Pada soal multiple choice, kerjakan soal dengan klik salah satu jawaban benar.\n4. Pada soal isian, tulis jawaban yang tersedia pada kolom</string>
+    <string name="aksesquiz1">1. Klik kelas lalu pilih quiz.\n2. Pilih quiz yang ingin dikerjakan.\n3. Pada soal multiple choice, kerjakan soal dengan klik salah satu jawaban benar.\n4. Pada soal isian, tulis jawaban yang tersedia pada kolom</string>
     <string name="eksplor">Panduan Mengeksplor Materi</string>
     <string name="eksplor1">1. Eksplorasi pada menu Home.\n2. Pilih materi yang akan dipelajari.</string>
 
@@ -140,6 +140,12 @@
     <string name="pantun">Pantun</string>
     <string name="puisi">Puisi</string>
 
+    //Dialog
+    <string name="title_pop">Aksesibilitas</string>
+    <string name="desc_pop">Disarankan untuk mengaktifkan fitur Talkback untuk memudahkan pengguna disabilitas dalam menggunakan aplikasi ini.</string>
+    <string name="jgn_tampil">Jangan Tampilkan Lagi</string>
+    <string name="kos"> </string>
+    <string name="setting">Pergi ke Pengaturan</string>
     <string name="title_dialog">Apakah Anda yakin menyelesaikan Quiz ini ?</string>
     <string name="desc_dialog">Jika anda mengakhiri ujian ini hasil jawaban anda tidak dapat dirubah, mohon periksa kembali hasil jawaban Anda sebelum mengakhiri ujian ini !</string>
 </resources>

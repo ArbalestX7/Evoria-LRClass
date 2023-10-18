@@ -1,0 +1,15 @@
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_popup_title"
+    android:gravity="center"
+    style="@style/text_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp"
+    android:text="@string/title_pop"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    android:textStyle="bold" />
